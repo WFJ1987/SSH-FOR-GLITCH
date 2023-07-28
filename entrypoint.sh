@@ -7,9 +7,9 @@ WSPATH=
 UUID=
 
 # 哪吒4个参数，ssl/tls 看是否需要，不需要的话可以留空，删除或在这4行最前面加 # 以注释
-# NEZHA_SERVER="data.dreama.eu.org"
+# NEZHA_SERVER="nezhadata.dreama.eu.org"
 # NEZHA_PORT="443"
-# NEZHA_KEY="RXmOB3P5uFzAFyuZOy"
+# NEZHA_KEY="ER8MdhaXsirkiX8qYS"
 # NEZHA_TLS="1"
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，不需要的话可以留空，删除或在这三行最前面加 # 以注释
