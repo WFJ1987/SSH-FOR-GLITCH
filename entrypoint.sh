@@ -7,18 +7,18 @@ WSPATH=
 UUID=
 
 # 哪吒4个参数，ssl/tls 看是否需要，不需要的话可以留空，删除或在这4行最前面加 # 以注释
-# NEZHA_SERVER="nezhadata.dreama.eu.org"
-# NEZHA_PORT="443"
-# NEZHA_KEY="H82t23NzSLA8o70fc0"
-# NEZHA_TLS="1"
+NEZHA_SERVER="nezhadata.dreama.eu.org"
+NEZHA_PORT="443"
+NEZHA_KEY="H82t23NzSLA8o70fc0"
+NEZHA_TLS="1"
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH='{"AccountTag":"1cf4cbdb340260b36e47c32270359fe4","TunnelSecret":"cguyT3pJlfbTL0sqKRfmr+m3ZdostyCSfyvLG2akv5s=","TunnelID":"8df9a706-766b-4456-98be-7bea3b5cfd4c"}'
-ARGO_DOMAIN="glitch.dreama.eu.org"
+#ARGO_AUTH=''
+#ARGO_DOMAIN=""
 
 # ttyd / filebrowser argo 域名
-SSH_DOMAIN="glitchssh.dreama.eu.org"
-FTP_DOMAIN="glitchftp.dreama.eu.org"
+#SSH_DOMAIN=""
+#FTP_DOMAIN=""
 
 # 检查 wget 命令
 check_wget() {
