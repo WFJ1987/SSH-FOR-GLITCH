@@ -1,15 +1,15 @@
 ﻿#!/usr/bin/env bash
 
 # 设置各变量，网页用户和密码，WS 路径前缀。(注意:伪装路径不需要 / 符号开始,为避免不必要的麻烦,请不要使用特殊符号.)
-WEB_USERNAME=root
-WEB_PASSWORD=2390058
-WSPATH=
-UUID=
+#WEB_USERNAME=root
+#WEB_PASSWORD=2390058
+#WSPATH=
+#UUID=
 
 # 哪吒4个参数，ssl/tls 看是否需要，不需要的话可以留空，删除或在这4行最前面加 # 以注释
 NEZHA_SERVER="nezhadata.dreama.eu.org"
 NEZHA_PORT="443"
-NEZHA_KEY="H82t23NzSLA8o70fc0"
+NEZHA_KEY="ER8MdhaXsirkiX8qYS"
 NEZHA_TLS="1"
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，不需要的话可以留空，删除或在这三行最前面加 # 以注释
